@@ -12,8 +12,6 @@ const PtList = cn('PtList');
 const Text = cn('Text');
 const Decorator = cn('Decorator');
 
-{/* <div className={History({ type: 'Desktop' }, [PtList({ view: 'default' })])}></div> */}
-
 export const History = props =>
     <div className={cnHistory({ type: 'Desktop' }, [Decorator({ 'space-a': 'l' })])}>
         <div className={Text({ view: 'primary', size: '3xl', weight: 'semibold' }, [Decorator({ 'indent-b': 'l' })])}>
@@ -26,8 +24,8 @@ export const History = props =>
                         <div className='PtList-Item' key={i}>
 
                             <div className='time&date'>
-                                <div>{item.date}</div>
-                                <div>{item.time}</div>
+                                <div className='Text Text_size_m Text_view_primary'>{item.date}</div>
+                                <div className='Text Text_size_s Text_view_secondary'>{item.time}</div>
                             </div>
 
                             <div className='PtIconPlus PtIconPlus_vertical-align_center'>
