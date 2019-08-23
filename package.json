@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bem-react/classname": "^1.5.4",
     "@bem-react/di": "^2.0.2",
     "@types/jest": "24.0.17",
     "@types/node": "12.7.1",

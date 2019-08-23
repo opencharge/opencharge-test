@@ -1,0 +1,16 @@
+.BrandLogo_size_m {
+    width: 40px;
+    height: 40px;
+}
+
+.BrandLogo_name_stolovaya {
+    background-image: url('./stolovaya.svg')
+}
+
+.BrandLogo_name_mts {
+    background-image: url('./mts.svg')
+}
+
+.BrandLogo_name_coffeeport {
+    background-image: url('./coffeeport.svg')
+}
