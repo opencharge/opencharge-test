@@ -38,8 +38,8 @@ export const History = props =>
                             </div>
 
                             <div className={`Text Text_size_m Text_view_${(item.addMoney) ? 'success' : 'primary'}`}>
-                                { (item.addMoney) ? '+' : '-' }
-                                { (item.currency === 'roubles') ? 'P' : ''}
+                                { (item.addMoney) ? '+ ' : '- ' }
+                                { (item.currency === 'roubles') ? 'P ' : ''}
                                 {item.qty}
                             </div>
 
