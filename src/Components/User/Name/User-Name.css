@@ -1,0 +1,9 @@
+.User-Name {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  .User-Name {
+    display: block;
+  }
+}

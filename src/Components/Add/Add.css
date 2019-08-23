@@ -1,0 +1,8 @@
+.Add-Icon {
+  width: 44px;
+  height: 36px;
+}
+
+.Add-Icon svg {
+  fill: var(--color-link);
+}

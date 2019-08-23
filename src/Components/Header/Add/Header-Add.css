@@ -1,0 +1,9 @@
+.Header-Add {
+  padding: var(--space-m) var(--space-xl) var(--space-xl);
+}
+
+@media screen and (min-width: 720px) {
+  .Header-Add {
+    padding: 0px;
+  }
+}

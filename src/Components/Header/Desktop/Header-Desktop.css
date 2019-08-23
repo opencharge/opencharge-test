@@ -1,0 +1,13 @@
+.Header-Desktop {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  .Header-Desktop {
+    display: flex;
+    background: var(--color-bg-default);
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-xl);
+  }
+}
